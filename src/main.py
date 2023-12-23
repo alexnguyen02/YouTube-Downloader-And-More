@@ -1,8 +1,8 @@
 import csv
 from typing import Any
 
-from download_video import download_video
-from get_video_info import get_video_info
+from src.download_video import download_video
+from src.get_video_info import get_video_info
 
 
 def download_from_file(read_file: str, write_file: str) -> Any:
